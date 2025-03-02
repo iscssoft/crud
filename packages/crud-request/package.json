@@ -7,7 +7,7 @@
     "url": "https://github.com/iscssoft/crud/issues"
   },
   "dependencies": {
-    "@iscssoft/util": "^1.0.1",
+    "@iscssoft/util": "^1.0.2",
     "qs": "^6.10.3"
   },
   "description": "NestJs CRUD for RESTful APIs - request query builder",
@@ -49,6 +49,6 @@
     "build": "npx tsc -b"
   },
   "typings": "lib/index.d.ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "gitHead": "ada06ff649330066d144dd58db764b107bed8fea"
 }

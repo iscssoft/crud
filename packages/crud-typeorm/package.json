@@ -37,6 +37,6 @@
     "build": "npx tsc -b"
   },
   "typings": "lib/index.d.ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "gitHead": "ada06ff649330066d144dd58db764b107bed8fea"
 }
