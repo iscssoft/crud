@@ -1,6 +1,6 @@
 import { BadRequestException, CallHandler, ExecutionContext, Injectable, NestInterceptor } from '@nestjs/common';
-import { RequestQueryException, RequestQueryParser, SCondition, QueryFilter } from 'iscssoft/crud-request';
-import { isNil, isFunction, isArrayFull, hasLength } from 'iscssoft/util';
+import { RequestQueryException, RequestQueryParser, SCondition, QueryFilter } from '@iscssoft/crud-request';
+import { isNil, isFunction, isArrayFull, hasLength } from '@iscssoft/util';
 import { ClassTransformOptions } from 'class-transformer';
 
 import { PARSED_CRUD_REQUEST_KEY } from '../constants';
