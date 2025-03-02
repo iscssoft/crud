@@ -1,0 +1,41 @@
+{
+  "author": {
+    "email": "chuongdotu@gmail.com",
+    "name": "Chuong Do"
+  },
+  "bugs": {
+    "url": "https://github.com/iscssoft/crud/issues"
+  },
+  "description": "NestJs CRUD for RESTful APIs - TypeORM",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "typescript",
+    "typeorm",
+    "nest",
+    "nestjs",
+    "rest",
+    "restful",
+    "api",
+    "crud",
+    "crud-generator",
+    "backend",
+    "frameworks"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "@iscssoft/crud-typeorm",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iscssoft/crud.git"
+  },
+  "scripts": {
+    "build": "npx tsc -b"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.0"
+}

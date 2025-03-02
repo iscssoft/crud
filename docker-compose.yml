@@ -1,0 +1,36 @@
+version: '3'
+
+networks:
+  iscssoft_crud:
+
+services:
+  postgres:
+    # TypeORM fails with Postgres v.12
+    image: postgres:11.5
+    ports:
+      - 5455:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: iscssoft_crud
+    networks:
+      - iscssoft_crud
+
+  mysql:
+    platform: linux/x86_64
+    image: mysql:5.7
+    ports:
+      - 3316:3306
+    environment:
+      MYSQL_DATABASE: iscssoft_crud
+      MYSQL_USER: iscssoft_crud
+      MYSQL_PASSWORD: iscssoft_crud
+      MYSQL_ROOT_PASSWORD: iscssoft_crud
+
+  redis:
+    image: redis:alpine
+    ports:
+      - 6399:6379
+    command: redis-server
+    networks:
+      - iscssoft_crud
