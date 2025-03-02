@@ -47,5 +47,6 @@
   "peerDependencies": {
     "class-transformer": "*",
     "class-validator": "*"
-  }
+  },
+  "gitHead": "31e941f1d57bb3920a76f5a5047eabc81eb04fc4"
 }
