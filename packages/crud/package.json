@@ -1,7 +1,7 @@
 {
   "name": "@iscssoft/crud",
   "description": "NestJs CRUD for RESTful APIs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -39,8 +39,8 @@
     "build": "npx tsc -b"
   },
   "dependencies": {
-    "@iscssoft/crud-request": "^1.0.0",
-    "@iscssoft/util": "^1.0.0",
+    "@iscssoft/crud-request": "^1.0.1",
+    "@iscssoft/util": "^1.0.1",
     "deepmerge": "^3.2.0",
     "pluralize": "^8.0.0"
   },
